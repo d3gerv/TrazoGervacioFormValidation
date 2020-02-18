@@ -27,6 +27,11 @@ function regclick()
     else
     {
         alert("Registration is complete");
+        document.getElementById('pass').value="";
+        document.getElementById('cpass').value="";
+        document.getElementById('login').value="";
+        document.getElementById('gender').value="";
+        document.getElementById('inemail').value="";
             
     }
 
